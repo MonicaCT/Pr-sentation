@@ -1,0 +1,45 @@
+# Define the Economist class
+#install.packages("R6")
+library(R6)
+Economist <- R6Class(
+  "Economist",
+  public = list(
+    experience_years = 10,
+    
+    initialize = function(experience_years = 10) {
+      private$experience_years <- experience_years
+    },
+    
+    introduce = function() {
+      return(paste("I'm an economist with over", private$experience_years,
+                   "years of experience as a researcher and data analyst",
+                   "in international organizations and government institutions."))
+    },
+    
+    research_interests = function() {
+      return("My research passions span a broad spectrum, including employment dynamics, poverty alleviation,",
+             "sustainable development, and macroeconomics.")
+    },
+    
+    current_focus = function() {
+      return("Currently, my scholarly focus is intricately woven into the exploration of spatial econometric models,",
+             "specifically applied to unravel the intricate dynamics governing housing values, crime patterns,",
+             "and government expenditures.")
+    },
+    
+    contribution_goal = function() {
+      return("This endeavor seeks to shed light on optimal regional investments by discerning the nuanced features",
+             "inherent to different localities, thereby contributing to a more nuanced understanding of effective",
+             "resource allocation based on regional needs.")
+    }
+  )
+)
+
+# Instantiate the Economist class
+economist <- Economist$new(experience_years = 10)
+
+# Print the introduction and research details
+cat(economist$introduce(), "\n")
+cat(economist$research_interests(), "\n")
+cat(economist$current_focus(), "\n")
+cat(economist$contribution_goal(), "\n")
