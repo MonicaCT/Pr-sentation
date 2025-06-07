@@ -1,0 +1,48 @@
+1. Quantitative Analysis
+Applied advanced econometric and statistical techniques to evaluate policy impact, monitor performance, and generate evidence for decision-making.
+
+Tools: Stata, R, Python, SPSS, Eviews, SAS, Gretl
+
+Methods: Regression (OLS, Logit, Probit), panel data, time series (ARIMA, VAR), impact evaluation (DiD, PSM, IV, RCTs), multivariate analysis, machine learning
+
+2. Spatial Analysis
+Used geographic and spatial econometrics to study territorial inequality, public service access, and policy efficiency at subnational levels.
+
+Tools: QGIS, ArcGIS, GeoDa
+
+Methods: Spatial regressions (SAR, SEM, SDM), spatial autocorrelation (Moran’s I), cluster analysis, thematic mapping
+
+3. Macroeconomic Modeling and CGE
+Simulated macroeconomic and microeconomic effects of policy scenarios to inform public investment and fiscal planning.
+
+Tools: GAMS, Matlab, Excel (with SAM models), CGE microsimulation
+
+Applications: Social Accounting Matrix analysis, labor and fiscal policy modeling
+
+4. Qualitative Research
+Implemented qualitative data collection and analysis to complement quantitative findings and deepen understanding of institutional and social dynamics.
+
+Tools: NVivo, Atlas.ti, Dedoose
+
+Methods: Focus groups, key informant interviews (KIIs), grounded theory, content analysis, case studies
+
+5. Mixed Methods
+Combined quantitative and qualitative evidence to support program evaluations, policy learning, and strategic planning in development projects.
+
+Tools: Power BI, Tableau, Google Data Studio
+
+Approaches: Theory of Change, Logical Framework, integrated survey and fieldwork analysis
+
+6. Theoretical and Analytical Modeling
+Constructed analytical frameworks and economic models for academic research and policy simulations.
+
+Tools: LaTeX, Overleaf, Zotero, Mendeley
+
+Applications: Model specification, documentation, and collaborative research
+
+7. Monitoring and Evaluation (M&E)
+Designed and implemented results-based monitoring systems to track project performance and evaluate development effectiveness.
+
+Tools: RBM, Logical Framework Approach, DevInfo, KoboToolbox, ODK, Power BI
+
+Frameworks: OECD-DAC criteria (Relevance, Effectiveness, Efficiency, Impact, Sustainability), custom indicator tracking systems
